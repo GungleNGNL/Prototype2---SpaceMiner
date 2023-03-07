@@ -1,0 +1,52 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "e4870af5-8407-4b01-9610-6f3d350f79bb",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "9200d730-a598-4de5-85c1-1a991fb15c2f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Double",
+                    "type": "Button",
+                    "id": "6e4c25c1-2b33-4d2d-86d7-4f4ce82654ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4aba1f53-ce74-4935-b0de-13ff6c082ca3",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fd8c14b-b704-4e5a-a6ab-5b1d6a128407",
+                    "path": "<Pointer>/press",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Double",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
